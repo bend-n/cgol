@@ -1,0 +1,17 @@
+[package]
+name = "cgol"
+version = "0.1.0"
+edition = "2021"
+author = ["bendn <bend.n@outlook.com>"]
+description = "simple finite cgol, takes seed from a image, outputs to the terminal"
+repository = "https://github.com/bend-n/cgol.git"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = { version = "0.24.7", features = ["png"], default-features = false }
+
+[profile.release]
+debug = true
+lto = "thin"
