@@ -3,8 +3,8 @@ use std::{
     time::Duration,
 };
 
-const WIDTH: usize = 50;
-const HEIGHT: usize = 20;
+const WIDTH: usize = 64;
+const HEIGHT: usize = 36;
 pub struct Grid([[bool; HEIGHT + 2]; WIDTH + 2]);
 
 impl Default for Grid {

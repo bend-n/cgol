@@ -1,8 +1,8 @@
 [package]
 name = "cgol"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
-author = ["bendn <bend.n@outlook.com>"]
+authors = ["bendn <bend.n@outlook.com>"]
 description = "simple finite cgol, takes seed from a image, outputs to the terminal"
 repository = "https://github.com/bend-n/cgol.git"
 license = "MIT"
